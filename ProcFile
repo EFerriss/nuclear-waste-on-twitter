@@ -1,0 +1,1 @@
+web: python --port=$PORT --host=nuclear-waste-on-twitter.herokuapp.com sentiment_analysis.py
