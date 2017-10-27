@@ -1,2 +1,2 @@
-web: gunicorn --host=nuclear-waste-on-twitter.herokuapp.com sentiment_analysis.py
+web: gunicorn sentiment_analysis.py:app
 heroku config:add BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git
