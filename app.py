@@ -12,6 +12,8 @@ app = Flask(__name__)
 def hello():
     return('Hello World')
 
+if __name__ == '__main__':
+    app.run(port=33507)
 
 #import tweepy
 #from tweepy import OAuthHandler
